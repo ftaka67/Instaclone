@@ -1,24 +1,16 @@
-# README
+# サブ課題
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 自分が苦労した点
+対象のアプリ(instagram)をあまり使ったことがなかったため、実際に触ってみたり全体像の設計に時間がかかってしまった。
+Rails Tutorialを完全に理解できていなかったため、Rails Tutorialのsample appとの違いがあまり出せなかった。
 
-Things you may want to cover:
+## 学んだ点
+全体的に勉強不足を感じた。
 
-* Ruby version
+## 自慢したい・相談したい点
+自慢したい点
+・トップページのフォントを本家に似せたところ。
 
-* System dependencies
+相談したい点
+・課題についてではありませんが、もろもろ遅れてしまっている状態からの勉強の進め方について。(一先ず本課題を進めるべき等)
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
