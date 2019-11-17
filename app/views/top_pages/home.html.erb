@@ -1,5 +1,20 @@
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render 'shared/user_info' %>
+      </section>
+      <section class="micropost_form">
+        <%= render 'shared/micropost_form' %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3>Micropost Feed</h3>
+      <%= render 'shared/feed' %>
+    </div>
+  </div>
+<% else %>
 <div class="center jumbotron">
-<!-- <div class="center jumbotron", style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333;"> -->
   <h1>Instaclone</h1>
   
   <h2>友達の写真や動画をチェックしよう</h2>
@@ -14,3 +29,4 @@
 <div>
   <h2>アカウントをお持ちですか？<%= link_to "ログインする", login_path, class: "btn btn-link" %></h2>
 </div>
+<% end %>
