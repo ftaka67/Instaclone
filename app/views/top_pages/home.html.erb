@@ -23,7 +23,7 @@
   <h2>友達の写真や動画をチェックしよう</h2>
 
   <ul>
-    <li><%= link_to "Facebook Login!", '#', class: "btn btn-lg btn-primary" %></li>
+    <li><%= link_to "Facebook Login!", user_facebook_omniauth_authorize_path, class: "btn btn-lg btn-primary" %></li>
     or
     <li><%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-default" %></li>
   </ul>
