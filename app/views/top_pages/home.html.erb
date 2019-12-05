@@ -1,0 +1,35 @@
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render 'shared/user_info' %>
+      </section>
+      <section class="stats">
+        <%= render 'shared/stats' %>
+      </section>
+      <section class="micropost_form">
+        <%= render 'shared/micropost_form' %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3>Micropost Feed</h3>
+      <%= render 'shared/feed' %>
+    </div>
+  </div>
+<% else %>
+<div class="center jumbotron">
+  <h1>Instaclone</h1>
+  
+  <h2>友達の写真や動画をチェックしよう</h2>
+
+  <ul>
+    <li><%= link_to "Facebook Login!", user_facebook_omniauth_authorize_path, class: "btn btn-lg btn-primary" %></li>
+    or
+    <li><%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-default" %></li>
+  </ul>
+</div>
+  
+<div>
+  <h2>アカウントをお持ちですか？<%= link_to "ログインする", login_path, class: "btn btn-link" %></h2>
+</div>
+<% end %>

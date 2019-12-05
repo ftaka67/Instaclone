@@ -21,3 +21,7 @@
 /yarn-error.log
 
 .byebug_history
+
+/app/assets/javascripts/*.coffee
+
+/public/uploads

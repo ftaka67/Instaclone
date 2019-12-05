@@ -1,24 +1,17 @@
-# README
+# サブ課題
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 自分が苦労した点
+Facebook認証が上手く行かず調査と修正に大幅に時間を要してしまった。
+最終的に完全な状態まで修正することが出来なかった。
+学習期間と仕事のトラブル期間が平行してしまい、単純に時間の捻出が一番難しかった。
 
-Things you may want to cover:
+## 学んだ点
+OAuthの仕組み自体をあまり知らなかったため、概要から学ぶことができた。
+rails tutorialをもう一周やりつつベースを作ったためチュートリアルの内容は理解が深まった。
 
-* Ruby version
+## 自慢したい・相談したい点
+自慢したい点
+・特になし
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+相談したい点
+・サブ課題も完全な状態ではありませんが、サポート期間の終了(12/20)も近いため進めるのであれば本課題に進みたいです。
